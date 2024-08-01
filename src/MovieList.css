@@ -1,0 +1,24 @@
+/* MovieList.css */
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-list input {
+    margin-bottom: 10px;
+}
+
+.movie-list button {
+    margin-bottom: 20px;
+}
+
+.movie-list ul {
+    width: 100%;
+    max-width: 600px;
+}
+
+.movie-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

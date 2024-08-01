@@ -1,0 +1,24 @@
+/* TicketList.css */
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-list input {
+    margin-bottom: 10px;
+}
+
+.ticket-list button {
+    margin-bottom: 20px;
+}
+
+.ticket-list ul {
+    width: 100%;
+    max-width: 600px;
+}
+
+.ticket-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

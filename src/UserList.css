@@ -1,0 +1,24 @@
+/* UserList.css */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-list input {
+    margin-bottom: 10px;
+}
+
+.user-list button {
+    margin-bottom: 20px;
+}
+
+.user-list ul {
+    width: 100%;
+    max-width: 600px;
+}
+
+.user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
